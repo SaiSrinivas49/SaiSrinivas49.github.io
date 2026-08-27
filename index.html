@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K Sai Srinivas</title>
+  <meta name="description" content="Personal portfolio of [YOUR NAME], Computer Science student and developer." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" />
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        K Sai Srinivas
+      </a>
+
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#interests">interests</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-name">
+            K Sai Srinivas
+          </h1>
+          <p class="hero-tagline">
+            Computer Science Student · Technology Enthusiast
+          </p>
+          <p class="hero-intro">
+            Computer Science Engineering student passionate about AI and deep learning. I build intelligent systems using Python, TensorFlow and Keras to solve complex data challenges. Currently seeking an internship to contribute to impactful, data-driven projects.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact me</a>
+            <a href="https://drive.google.com/file/d/1s-3lSfMq5ptXC5XpvIF7e--5oSeqiUT1/view?usp=drive_link" class="btn btn-ghost" download>Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-frame">
+            <img src="profile.png" alt="Portrait of Srinivas" class="hero-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Computer Science undergraduate with strong foundations in Data Structures, Machine Learning and Backend
+              Development. Experienced in building full-stack applications using Django, FastAPI and developing deep learning
+              models with TensorFlow. Proficient in Java, Python and SQL with a focus on building scalable and practical
+              solutions</p>   
+          </div>
+
+          <aside class="about-facts" aria-label="Key facts">
+            <ul class="fact-list">
+              <li>
+                <span class="fact-label">Based in</span>
+                <span class="fact-value">Guntur, Andhra Pradesh</span>
+              </li>
+              <li>
+                <span class="fact-label">Currently</span>
+                <span class="fact-value">M Tech 1st Year</span>
+              </li>
+              <li>
+                <span class="fact-label">Focus area</span>
+                <span class="fact-value">Machine Learning</span>
+              </li>
+              <li>
+                <span class="fact-label">Open to</span>
+                <span class="fact-value">Internships and Full-time Roles</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <p class="timeline-date">July 2026 – Present</p>
+              <h3>M Tech </h3> 
+              <p class="timeline-date">Computer Science and Engineering</p>
+              <p class="timeline-org">IIIT Hyderabad</p>
+              <p class="timeline-detail">CGPA: -</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <p class="timeline-date">Aug 2022 – June 2026</p>
+              <h3>B Tech </h3>
+              <p class="timeline-date">Computer Science and Engineering</p>
+              <p class="timeline-org">VIT AP University</p>
+              <p class="timeline-detail">CGPA: 8.99</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+          <article class="project-card card">
+            
+            <div class="project-body">
+              <h3>Multi-Model Dog Breed Classification System</h3>
+              <p>Developed a dog breed classification system using transfer learning with MobileNetV2, ResNet50V2 and InceptionV3,
+                achieving up to 89% classification accuracy on a multi-class dataset.</p>
+              <ul class="tech-tags">
+                <li>Tensorflow</li>
+                <li>Scikit-learn</li>
+                <li>FastAPI</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/SaiSrinivas49/DogBreedClassification" class="link-arrow">View →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card card">
+            <div class="project-body">
+              <h3>Distributed Task Management System</h3>
+              <p>Developed a full-stack task management application using FastAPI, ReactJS and MySQL allowing users to create
+                projects, assign tasks and track progress through an interface.
+              </p>
+              <ul class="tech-tags">
+                <li>FastAPI</li>
+                <li>MySQL</li>
+                <li>Redis</li>
+                <li>Docker</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/SaiSrinivas49/SmartTaskPlanner" class="link-arrow">View →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card card">
+            <div class="project-body">
+              <h3>Personal Finance Tracker</h3>
+              <p>Built a Django-based full-stack web application to help users manage personal finances through secure login, intuitive
+              expense tracking and automated financial summaries</p>
+              <ul class="tech-tags">
+                <li>Python</li>
+                <li>Django</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/SaiSrinivas49/PersonalFinanceTracker" class="link-arrow">View →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-category card">
+            <h3>Programming languages</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category card">
+            <h3>Web development</h3>
+            <ul class="skill-tags">
+              <li>Django</li>
+              <li>Fast API</li>
+              <li>ReactJS</li>
+            </ul>
+          </div>
+
+          <div class="skill-category card">
+            <h3>Databases</h3>
+            <ul class="skill-tags">
+              <li>MySQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+
+          <div class="skill-category card">
+            <h3>Machine learning / AI</h3>
+            <ul class="skill-tags">
+              <li>Tensorflow</li>
+              <li>Scikit-learn</li>
+              <li>Langchain</li>
+            </ul>
+          </div>
+
+          <div class="skill-category card">
+            <h3>Tools</h3>
+            <ul class="skill-tags">
+              <li>Git</li>
+              <li>Docker</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Research Experience</h2>
+
+        <div class="experience-list">
+          <article class="experience-item card">
+            <div class="experience-head">
+              <h3>Student Research</h3>
+              <p class="experience-date">Jan 2026 - June 2026</p>
+            </div>
+            <p class="experience-org">VIT AP University</p>
+            <p class="experience-desc">Conducted undergraduate research on the K-Traveling Repairmen Problem (K-TRP), a latency-oriented multi-agent routing optimization problem. Developed a hybrid Fuzzy C-Means (FCM) clustering and Mamdani Fuzzy Priority Routing framework to reduce cumulative customer waiting time and improve workload distribution among repairmen.Achieved a 9.69% reduction in total latency compared with Pure Greedy Routing and a 5.72% improvement over the K-Means + Greedy baseline, while improving workload balance among repairmen.</p>
+            <ul class="experience-points">
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Interests</h2>
+
+        <div class="pill-grid">
+          <div class="pill-card card">Generative AI and llms</div>
+          <div class="pill-card card">Full stack Development</div>
+          <div class="pill-card card">Competitive Programming</div>
+          <div class="pill-card card">Strategic Gaming</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="achievement-grid">
+          <div class="achievement-card card">
+            <p class="achievement-year">2025</p>
+            <h3>OCI Generative AI Professional Certificate</h3>
+            <p class="achievement-org">Oracle</p>
+          </div>
+          <div class="achievement-card card">
+            <p class="achievement-year">2025</p>
+            <h3>High Performance Coding - DSA using Java</h3>
+            <p class="achievement-org">Iamneo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt contact-section">
+      <div class="container">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-subtitle">
+          Feel free to reach out about opportunities or collaborations.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:ksaisrinivas49@gmail.com">EMAIL</a>
+          </li>
+          <li>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/SaiSrinivas49">GITHUB</a>
+          </li>
+          <li>
+            <span class="contact-label">LinkedIn</span>
+            <a href="[YOUR LINKEDIN URL]">LINKEDIN</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 K Sai Srinivas</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/SaiSrinivas49">GitHub</a></li>
+        <li><a href="[YOUR LINKEDIN URL]">LinkedIn</a></li>
+        <li><a href="mailto:ksaisrinivas49@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
